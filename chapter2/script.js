@@ -1,7 +1,7 @@
 console.log("This is linked!");
 
 //variable for welcome message
-var greeting = 'Hola';
+var greeting = 'Hola ';
 var name = 'Sheyla';
 var message = ', please check your order:';
 
@@ -16,6 +16,10 @@ var subTotal = tiles * 5; // this is going to take the length of tiles and multi
 var shipping = 7; 
 var grandTotal = subTotal + shipping // this line will calculate the total of shipping and subtotal
 
+//get the element that has an id of greeting
+var el = document.getElementById('greeting');
 
+//replace the content of the element with the personalized welcome message
+el.textContent = welcome
 
 
