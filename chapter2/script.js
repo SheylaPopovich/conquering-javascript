@@ -22,4 +22,27 @@ var el = document.getElementById('greeting');
 //replace the content of the element with the personalized welcome message
 el.textContent = welcome
 
+//get the element that has an id of userSIgn then update its contents
+var elSign = document.getElementById('userSign');
+elSign.textContent = sign;
+
+//get the element that has an id of tiles then update it contents
+var elTiles = document.getElementById('tiles');
+elTiles.textContent = tiles;
+
+//get the element that has an id of subTotal then update its contents
+var subTotal = document.getElementById('subTotal');
+elSubTotal.textContent = '$' + subTotal;
+
+//get the element that has an id of shipping then update its contents
+var elShipping = document.getElementById('shipping');
+elShipping.textContent = '$' + shipping;
+
+//get the element that has an id of grandTotal then update its contents
+var elGrandTotal = document.getElementById('grandTotal');
+elGrandTotal.textContent = '$' + grandTotal; 
+
+
+
+
 
