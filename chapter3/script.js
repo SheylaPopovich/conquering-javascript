@@ -27,3 +27,10 @@ specialRate = document.getElementById('specialRate');
 hotelName.textContent = hotel.name;
 roomRate.textContent = '$' + hotel.roomRate.toFixed(2);
 specialRate.textContent =  '$' + hotel.offerPrice();
+
+//PART TWO: CALCULATE ADN WRITE OUT THE EXPIRY DETAILS FOR THE OFFER
+var expiryMSg; //message displayed to users
+var today;  //today's date
+var elEnds; //the element that shows the message about the offer ending
+
+
