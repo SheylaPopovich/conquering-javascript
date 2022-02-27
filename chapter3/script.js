@@ -34,3 +34,10 @@ var today;  //today's date
 var elEnds; //the element that shows the message about the offer ending
 
 
+function offerExpires(today){
+
+    //Declare variables within the unction for local scope
+    var weekFromToday, day, date, month, year, dayNames, monthNames;
+
+    
+}
