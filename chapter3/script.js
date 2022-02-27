@@ -18,6 +18,12 @@ offerPrice:  function() {
 //Write out the hotel name, standard rate, and the special rate
 let hotelName, roomRate, specialRate   
 
+//Get Elements
 hotelName = document.getElementById('hotelName');
 roomRate = document.getElementById('roomRate');
 specialRate = document.getElementById('specialRate');
+
+//Write hotelName, roomRate, and specialRate
+hotelName.textContent = hotel.name;
+roomRate.textContent = '$' + hotel.roomRate.toFixed(2);
+specialRate.textContent =  '$' + hotel.offerPrice();
