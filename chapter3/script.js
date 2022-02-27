@@ -16,5 +16,8 @@ offerPrice:  function() {
 };
 
 //Write out the hotel name, standard rate, and the special rate
-let hotelName, roomRate, specialRate //declare variables
+let hotelName, roomRate, specialRate   
 
+hotelName = document.getElementById('hotelName');
+roomRate = document.getElementById('roomRate');
+specialRate = document.getElementById('specialRate');
