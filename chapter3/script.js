@@ -41,4 +41,8 @@ function offerExpires(today){
 
     //Add 7 days time (added in milliseconds) 
     weekFromToday = new Date(today.getTime() + 7 * 24 * 60 * 60 * 1000);
+    
+    //Create arrays to hold the names of days / months
+    dayNames = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+
 }
