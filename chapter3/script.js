@@ -39,5 +39,6 @@ function offerExpires(today){
     //Declare variables within the unction for local scope
     var weekFromToday, day, date, month, year, dayNames, monthNames;
 
-    
+    //Add 7 days time (added in milliseconds) 
+    weekFromToday = new Date(today.getTime() + 7 * 24 * 60 * 60 * 1000);
 }
