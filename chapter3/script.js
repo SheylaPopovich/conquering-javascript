@@ -55,5 +55,7 @@ function offerExpires(today){
     
 
     //Create the message
-    
+    expiryMSg = 'Offer expires next ';
+    expiryMSg += day + ' <br />(' + date + ' ' + month + ' ' + year + ')'; 
+    return expiryMSg; 
 }
