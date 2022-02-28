@@ -59,3 +59,10 @@ function offerExpires(today){
     expiryMSg += day + ' <br />(' + date + ' ' + month + ' ' + year + ')'; 
     return expiryMSg; 
 }
+
+today = new Date();  //put today's date in variable
+elEnds = document.getElementById('offerEnds');   //get the offerEnds element
+elEnds.innerHTML = offerExpires(today);     //Add the expiry message
+
+//Finish the immediately invoked function expression
+}())
