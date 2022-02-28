@@ -47,4 +47,13 @@ function offerExpires(today){
 
     monthNames = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'June', 'July', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec'];
 
+    //Collect the parts of the date to show on the page
+    day = dayNames[weekFromToday.getDay9()];
+    date = weekFromToday.getDate();
+    month = monthNames[weekFromToday.getMonth()];
+    year = weekFromToday.getFullYear();
+    
+
+    //Create the message
+    
 }
