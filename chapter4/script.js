@@ -39,8 +39,8 @@ var passBoth = (score1 >= pass1) && (score2 >= pass2);
 
 
 //Create message
-var msg= 'Both rounds Passed: ' + passBoth;
-
+var msg = 'Both rounds Passed: ' + passBoth;
+ var el = document.getElementById('');
 
 
 
