@@ -1,5 +1,4 @@
-// console.log('This is Linked');
-
+//USING COMPARISON OPERATORS
 // var pass = 50;  // Pass Mark
 // var score = 90; // Score
 
@@ -11,16 +10,33 @@
 // el.textContent = 'Level Passed: ' + hasPassed;
 
 
+//-------------------------------------------//
+//COMPARING TWO EXPRESSIONS
+// var score1 = 90; //Round 1 score
+// var score2 = 95; //Round 2 score
 
-var score1 = 90; //Round 1 score
-var score2 = 95; //Round 2 score
-
-var highScore1 = 75; //Round 1 high score
-var highScore2 = 95; //Round 2 high score
+// var highScore1 = 75; //Round 1 high score
+// var highScore2 = 95; //Round 2 high score
 
 //Check if scores are higher than current high scores
-var comparison = (score1 + score2) >= (highScore1 + highScore2);
+// var comparison = (score1 + score2) >= (highScore1 + highScore2);
 
-//Write the message into the page
-var el = document.getElementById ('answer');
-el.textContent = "New High Score " + comparison;
+// //Write the message into the page
+// var el = document.getElementById ('answer');
+// el.textContent = "New High Score: " + comparison;
+
+//-------------------------------------------//
+
+//USING LOGICAL AND
+var score1 = 8; //Round 1 Score
+var score2 = 8; //Round 2 Score
+var pass1 = 6; //Round 1 pass mark
+var pass2 = 6; //Round 2 pass mark
+
+
+
+
+
+
+
+
