@@ -57,7 +57,7 @@ var pass2 = 6; //Round 2 pass mark
 var minPass = ((score1 >= pass1) || (score2 >= pass2))
 
 //Create message
-var msg = 'Resit required: ' + minPass;
+var msg = 'Resit required: ' + !minPass;
 
 
 //Write message onto the page
