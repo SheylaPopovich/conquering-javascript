@@ -48,19 +48,28 @@
 //-------------------------------------------//
 
 //USING LOGICAL OR LOGICAL NOT
-var score1 = 8; //Round 1 Score
-var score2 = 8; //Round 2 Score
-var pass1 = 6; //Round 1 pass mark
-var pass2 = 6; //Round 2 pass mark 
+// var score1 = 8; //Round 1 Score
+// var score2 = 8; //Round 2 Score
+// var pass1 = 6; //Round 1 pass mark
+// var pass2 = 6; //Round 2 pass mark 
 
 //Check whether user passed one of the two rounds, store result in variable
-var minPass = ((score1 >= pass1) || (score2 >= pass2))
+// var minPass = ((score1 >= pass1) || (score2 >= pass2))
 
 //Create message
-var msg = 'Resit required: ' + !minPass;
+// var msg = 'Resit required: ' + !minPass;
 
 
 //Write message onto the page
-var el = document.getElementById('answer');
-el.textContent = msg;
+// var el = document.getElementById('answer');
+// el.textContent = msg;
+
+//-------------------------------------------//
+var score = 75; // Score 
+var msg; // Message
+
+if (score >= 50) { //if score is 50 or higher
+    msg = 'Congratulations!';
+    msg += ' Proceed to the next round.'; 
+}
 
