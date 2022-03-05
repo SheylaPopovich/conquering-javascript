@@ -42,7 +42,7 @@ var passBoth = (score1 >= pass1) && (score2 >= pass2);
 var msg = 'Both rounds Passed: ' + passBoth;
 
 //Write the message onto the page
- var el = document.getElementById('');
+ var el = document.getElementById('answer');
 el.textContent = msg;
 
 
