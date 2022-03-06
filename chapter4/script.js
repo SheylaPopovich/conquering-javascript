@@ -83,3 +83,12 @@
 var msg; //MESSAGE
 var level = 2; //Level
 
+//Determine message based level
+switch (level) {
+    case value:
+        
+        break;
+
+    default:
+        break;
+}
