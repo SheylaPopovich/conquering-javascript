@@ -102,28 +102,38 @@
 // var el = document.getElementById('answer');
 // el.textContent = msg;
 
-
 //-------------------------------------------//
 //USING FOR LOOPS
-var scores = [24, 32, 17];  //Array of Scores
-var arrayLength = scores.length;  //Items in an array
-var roundNumber = 0; // Current round
-var msg = '' // message
-var i; //Counter
-
+// var scores = [24, 32, 17, 23, 40, 60, 75]; //Array of Scores
+// var arrayLength = scores.length; //Items in an array
+// var roundNumber = 0; // Current round
+// var msg = ""; // message
+// var i; //Counter
 
 //Loop through the items in the array
-for (i = 0; i < arrayLength; i++) {
+// for (i = 0; i < arrayLength; i++) {
+  //Arrays are zero based (so 0 is round 1)
+  //Add 1 to the current round
+//   roundNumber = i + 1;
 
-    //Arrays are zero based (so 0 is round 1)
-    //Add 1 to the current round
-    roundNumber = (i + 1);
+  //Write the current round to message
+//   msg += "Round " + roundNumber + ": ";
 
-    //Write the current round to message
-    msg += 'Round ' + roundNumber + ': ';
+  //Get the Score from the scores array
+//   msg += scores[i] + "<br />";
+// }
 
-    //Get the Score from the scores array
-    msg += scores[i] + '<br />';
+// document.getElementById("answer").innerHTML = msg;
+
+
+//-------------------------------------------//
+//USING WHILE LOOPS
+var i = 1;   //Set counter to 1
+var msg = '';  //Message
+
+//Store 5 times table in a variable
+while (i < 10 ) {
+    msg += i + ' x5 = ' + (i * 5) + '<br />';
+    i++
 }
-
 document.getElementById('answer').innerHTML = msg;
