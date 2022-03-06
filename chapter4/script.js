@@ -79,25 +79,35 @@
 //-------------------------------------------//
 //USING SWITCH STATEMENTS
 
-var msg; //MESSAGE
-var level = 2; //Level
+// var msg; //MESSAGE
+// var level = 2; //Level
 
 //Determine message based level
-switch (level) {
-  case 1:
-    msg = "Good luck on the first test";
-    break;
-  case 2:
-    msg = "Second of three - keep going!";
-    break;
-  case 3:
-    msg = "Final round, almost there!";
-    break;
+// switch (level) {
+//   case 1:
+//     msg = "Good luck on the first test";
+//     break;
+//   case 2:
+//     msg = "Second of three - keep going!";
+//     break;
+//   case 3:
+//     msg = "Final round, almost there!";
+//     break;
 
-  default:
-    msg = "Good Luck!";
-    break;
-}
+//   default:
+//     msg = "Good Luck!";
+//     break;
+// }
 
-var el = document.getElementById('answer');
-el.textContent = msg;
+// var el = document.getElementById('answer');
+// el.textContent = msg;
+
+
+//-------------------------------------------//
+//USING FOR LOOPS
+var scores = [24, 32, 17];  //Array of Scores
+var arrayLength = scores.length;  //Items in an array
+var roundNumber = 0; // Current round
+var msg = '' // message
+var i; //Counter
+
