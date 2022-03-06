@@ -9,7 +9,6 @@
 // var el = document.getElementById('answer');
 // el.textContent = 'Level Passed: ' + hasPassed;
 
-
 //-------------------------------------------//
 //COMPARING TWO EXPRESSIONS
 // var score1 = 90; //Round 1 score
@@ -33,10 +32,8 @@
 // var pass1 = 6; //Round 1 pass mark
 // var pass2 = 6; //Round 2 pass mark
 
-
 //Check whether user passed both rounds, store result in a variable
 // var passBoth = (score1 >= pass1) && (score2 >= pass2);
-
 
 //Create message
 // var msg = 'Both rounds Passed: ' + passBoth;
@@ -51,7 +48,7 @@
 // var score1 = 8; //Round 1 Score
 // var score2 = 8; //Round 2 Score
 // var pass1 = 6; //Round 1 pass mark
-// var pass2 = 6; //Round 2 pass mark 
+// var pass2 = 6; //Round 2 pass mark
 
 //Check whether user passed one of the two rounds, store result in variable
 // var minPass = ((score1 >= pass1) || (score2 >= pass2))
@@ -59,21 +56,30 @@
 //Create message
 // var msg = 'Resit required: ' + !minPass;
 
-
 //Write message onto the page
 // var el = document.getElementById('answer');
 // el.textContent = msg;
 
 //-------------------------------------------//
-var score = 95; // Score 
-var msg; // Message
+//USING IF STATEMENTS
+// var score = 95; // Score
+// var msg; // Message
 
-if (score >= 50) { //if score is 50 or higher
-    msg = 'Congratulations!';
-    msg += ' Proceed to the next round.'; 
-} else {
-    msg = 'Failed, try Again'
-}
+// if (score >= 50) {
+  //if score is 50 or higher
+//   msg = "Congratulations!";
+//   msg += " Proceed to the next round.";
+// } else {
+//   msg = "Failed, try Again";
+// }
 
-var el = document.getElementById('answer');
-el.textContent = msg; 
+// var el = document.getElementById("answer");
+// el.textContent = msg;
+
+
+//-------------------------------------------//
+//USING SWITCH STATEMENTS
+
+var msg; //MESSAGE
+var level = 2; //Level
+
